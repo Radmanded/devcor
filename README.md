@@ -104,7 +104,6 @@ https://andrecamillo.medium.com/getting-started-with-meraki-apis-7633a822a9da
 
 </details>
 
-
 <details>
 <summary><h2> :information_source: Webex</h2></summary>
 
@@ -149,16 +148,18 @@ https://blogs.cisco.com/developer/device-provisioning-with-ios-xe-zero-touch-pro
 https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2020/pdf/DEVNET-2323.pdf
 
 **GitHub**
+
 https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2020/pdf/DEVNET-2323.pdf
 
 
 https://github.com/jeremycohoe/IOSXE-Zero-Touch-Provisioning
 
 **Python2 Version for Educational Purpose**
+
 https://github.com/CiscoSE/IOS-XE-ZTP
 https://github.com/tdorssers/ztp
 
- </details>
+</details>
 
 
 <details>
@@ -172,9 +173,7 @@ https://developer.cisco.com/learning/search/modules/
 
 https://dcloud-cms.cisco.com/help/view-documentation-for-dcloud-content
 
-
 </details>
-
 
 <details>
   <summary>
