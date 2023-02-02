@@ -1,0 +1,3 @@
+#In this learning lab you will learn how to build Python scripts and use the Cisco DNA Center Platform APIs for the path trace application. 
+
+#perform a path trace between two nodes within your network between a specified source device and a specified destination device, this for example could be a user (source) and print or server (destination). The two nodes can be a mixture of wired or wireless hosts and/or Layer 3 interfaces. In addition to this, you can specify the protocol (either TCP or UDP) to establish the path trace connection. The more information that is provided the more accurate the path trace will bea.
