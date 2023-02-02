@@ -1,0 +1,6 @@
+class ConfigSync: 
+
+    def __init__(self, config, log): 
+        self.log = log 
+        self.config_file = config 
+        self.log.info('Initializing ConfigSync class.')

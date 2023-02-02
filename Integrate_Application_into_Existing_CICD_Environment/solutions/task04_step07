@@ -1,0 +1,7 @@
+def test_welcome_negative(self): 
+        response = requests.get(self.url) 
+        status_code = response.status_code 
+        content = response.content.decode('ascii') 
+
+        self.assertEqual(status_code, 200) 
+        self.assertNotIn('Welcome home.', content)

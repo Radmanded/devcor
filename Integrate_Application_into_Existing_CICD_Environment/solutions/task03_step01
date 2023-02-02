@@ -1,0 +1,6 @@
+stages:
+  - build 
+
+build:
+  stage: build 
+  script: cd $CI_PROJECT_DIR/app && docker build -t app .

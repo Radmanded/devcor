@@ -1,0 +1,3 @@
+self.assertIn('Welcome home.', content)
+
+python app_tests.py

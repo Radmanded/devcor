@@ -1,0 +1,3 @@
+print(cs.fdm.token)
+
+python config_sync.py

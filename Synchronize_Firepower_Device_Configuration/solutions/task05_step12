@@ -1,0 +1,5 @@
+    import json
+    print(json.dumps(cs.access_rule, indent=4))
+
+
+python config_sync.py

@@ -1,0 +1,8 @@
+    def deploy(self, timeout=180):
+        self.log.debug('Deploying the configuration.') 
+
+        url = self.base_url + '/operational/deploy'
+        headers = self._get_auth_headers() 
+
+        self.log.debug('Sending the request to deploy the configuration.') 
+        response = self._send_request(url, method='post', headers=headers)

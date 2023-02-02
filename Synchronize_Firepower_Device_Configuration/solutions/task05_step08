@@ -1,0 +1,30 @@
+    def get_access_policy_id(self):
+
+        url = self.base_url + '/policy/accesspolicies'
+        headers = self._get_auth_headers() 
+
+        self.log.debug('Requesting access policies from FDM.') 
+        response = self._send_request(url, headers=headers) 
+        policy_id = response['items'][0]['id']
+        self.log.debug(f'Policy ID is: {policy_id}') 
+        return policy_id
+
+    def get_access_rule_by_name(self, name):
+        self.log.debug('Searching for access rule.') 
+        policy_id = self.get_access_policy_id()
+
+        url = self.base_url + f'/policy/accesspolicies/{policy_id}/accessrules'
+        headers = self._get_auth_headers() 
+
+        self.log.debug('Requesting access rules from FDM.') 
+        response = self._send_request(url, headers=headers) 
+        access_rules = response.get('items') 
+
+        rule_data = None 
+        for rule in access_rules: 
+            if name == rule.get('name'): 
+                rule_data = rule
+                break 
+        if rule_data is None: 
+            raise Exception('Unable to find requested rule.') 
+        return rule_data

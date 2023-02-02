@@ -1,0 +1,24 @@
+import requests 
+
+
+    def _send_request(self, url, method='get', headers=None, body=None, params=None):
+        self.log.debug('Sending request to FDM.') 
+        request_method = getattr(requests, method)
+        if not headers: 
+            headers = self.base_headers 
+
+        self.log.debug(f'Using URL: {url}') 
+        self.log.debug(f'Using method: {method}') 
+        self.log.debug(f'Using headers: {str(headers)}') 
+        self.log.debug(f'Using body: {str(body)}') 
+        self.log.debug(f'Using query strings: {str(params)}') 
+
+        response = request_method(url, verify=False, headers=headers, json=body, params=params)
+        status_code = response.status_code 
+        response_body = response.json() 
+        self.log.debug(f'Got status code: {str(status_code)}') 
+        self.log.debug(f'Got response body: {str(response_body)}') 
+        if status_code != 200:
+            msg = response_body.get('message', 'Request to FDM unsuccessful.') 
+            raise Exception(msg) 
+        return response_body

@@ -1,0 +1,7 @@
+git add tests/
+git status
+
+git commit -am "Adding unit tests."
+git push
+root
+1234QWer

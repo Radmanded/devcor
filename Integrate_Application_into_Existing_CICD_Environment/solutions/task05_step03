@@ -1,0 +1,7 @@
+build_lb:
+  stage: systembuild
+  script:
+    - cd $CI_PROJECT_DIR/lb
+    - docker login http://dev.gitlab.local:5005 -u root -p 1234QWer
+    - docker build -t dev.gitlab.local:5005/root/application/lb .
+    - docker push dev.gitlab.local:5005/root/application/lb

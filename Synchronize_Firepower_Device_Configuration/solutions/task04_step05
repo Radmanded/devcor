@@ -1,0 +1,13 @@
+    def logout(self): 
+        self.log.debug('Logout from FDM.') 
+
+        url = self.base_url + '/fdm/token'
+        body = { 
+            'grant_type': 'revoke_token',
+            'access_token': self.token,
+            'token_to_revoke': self.token,
+        } 
+
+        self.log.debug('Sending the logout request to FDM.') 
+        self._send_request(url, method='post', body=body)     
+        self.log.debug('Logout successful.')

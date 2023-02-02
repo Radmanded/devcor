@@ -1,0 +1,11 @@
+        self.token = None
+
+        self.base_headers = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+        }
+        self.base_url = f'https://{self.host}:{self.port}/api/fdm/v2'
+
+        requests.packages.urllib3.disable_warnings() 
+
+        self.log.debug('FDMClient class initialization finished.')

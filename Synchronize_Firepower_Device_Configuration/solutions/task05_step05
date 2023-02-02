@@ -1,0 +1,7 @@
+    def __init__(self, config, log): 
+        self.log = log 
+        self.config_file = config 
+        self.log.info('Initializing ConfigSync class.') 
+        self.config = self._parse_config(config)
+        self.fdm = self._init_fdm_client(self.config)
+        self.log.debug('ConfigSync class initialization finished.')

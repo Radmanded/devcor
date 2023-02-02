@@ -1,0 +1,4 @@
+    def sync(self): 
+        self.log.info('Starting the configuration synchronization.') 
+        self.log.info('Requesting URL categories from FDM.') 
+        self.url_categories = self.fdm.get_url_categories()

@@ -1,0 +1,10 @@
+    def _init_fdm_client(self, config): 
+        self.log.info('Initializing FDMClient class.') 
+        host = config.get('fdm_host') 
+        username = config.get('fdm_username') 
+        password = config.get('fdm_password') 
+        fdm = FDMClient(host, username=username, password=password, log=self.log)
+        self.log.info('Login to FDM.') 
+        fdm.login()         
+        return fdm
+

@@ -1,0 +1,6 @@
+    def deploy(self): 
+        self.log.info('Starting with the configuration deployment.') 
+        self.fdm.deploy()
+        self.log.info('Configuration deployment successful.') 
+        self.log.info('Logging out from FDM.') 
+        self.fdm.logout()

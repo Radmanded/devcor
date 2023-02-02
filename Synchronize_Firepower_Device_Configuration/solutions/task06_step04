@@ -1,0 +1,16 @@
+
+    def _get_url_category(self, name):
+        category_dict = None 
+        for category in self.url_categories: 
+            category_name = category['name'] 
+            if category_name == name: 
+                category_dict = { 
+                    'urlCategory': { 
+                        'name': category_name, 
+                        'id': category['id'], 
+                        'type': category['type'] 
+                    }, 
+                    'type': 'urlcategorymatcher' 
+                } 
+                break 
+        return category_dict

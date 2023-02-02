@@ -1,0 +1,10 @@
+    def sync(self): 
+        self.log.info('Starting the configuration synchronization.') 
+        self.log.info('Requesting URL categories from FDM.') 
+        self.url_categories = self.fdm.get_url_categories() 
+        self.access_rule['urlFilter']['urlCategories'] = []
+        self.log.info('Updating the access rule.') 
+        for category in self.config['url_filtering']['url_categories']:
+            cat_dict = self._get_url_category(category)
+            if cat_dict: 
+                self.access_rule['urlFilter']['urlCategories'].append(cat_dict)

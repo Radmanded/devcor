@@ -1,0 +1,6 @@
+git status
+git add .gitlab-ci.yml
+git commit -am "Adding initial .gitlab-ci.yml file."
+git push
+root
+1234QWer

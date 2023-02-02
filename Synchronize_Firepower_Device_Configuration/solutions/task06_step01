@@ -1,0 +1,9 @@
+    def get_url_categories(self): 
+        self.log.debug('Searching for URL categories on FDM.') 
+        url = self.base_url + '/object/urlcategories'
+        headers = self._get_auth_headers() 
+        params = {'limit': '100'}
+
+        self.log.debug('Sending request for getting URL categories from FDM.') 
+        response = self._send_request(url, headers=headers, params=params)
+        return response.get('items')

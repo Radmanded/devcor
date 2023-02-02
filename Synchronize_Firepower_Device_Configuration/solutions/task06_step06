@@ -1,0 +1,8 @@
+    def put_access_rule(self, data):
+        self.log.debug('Updating access rule on FDM.') 
+        url = data['links']['self'] 
+        headers = self._get_auth_headers() 
+
+        self.log.debug('Sending the request to update the access rule on FDM.') 
+        response = self._send_request(url, method='put', headers=headers, body=data)
+        return response

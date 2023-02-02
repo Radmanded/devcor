@@ -1,0 +1,5 @@
+- systemtest
+
+system_test:
+  stage: systemtest
+  script: /bin/bash tests/run_system_tests.sh

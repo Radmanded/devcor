@@ -1,0 +1,10 @@
+class FDMClient: 
+
+    def __init__(self, host, port=443, username='admin', password='1234QWer', log=None):
+        self.host = host 
+        self.port = port 
+        self.username = username 
+        self.password = password 
+        self.log = log 
+        if not log: 
+            raise Exception('The logger should not be None.')

@@ -1,0 +1,8 @@
+    def _get_auth_headers(self): 
+        headers = self.base_headers.copy()
+        if self.token:
+            headers['Authorization'] = f'Bearer {self.token}'
+        else: 
+            msg = 'No token exists, use login method to get the token.' 
+            raise Exception(msg)     
+        return headers

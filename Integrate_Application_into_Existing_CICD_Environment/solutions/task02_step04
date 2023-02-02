@@ -1,0 +1,6 @@
+*** Name of the file: ***
+.gitlab_ci.yml.
+
+*** Add the following content to the file to test that the runner is working: ***
+job1:
+  script: echo "Running test CI/CD."

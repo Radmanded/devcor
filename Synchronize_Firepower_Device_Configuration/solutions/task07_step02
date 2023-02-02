@@ -1,0 +1,25 @@
+import time 
+import datetime 
+
+    def deploy(self, timeout=180): 
+        <... output omitted ...>         
+        self.log.debug('Waiting for deploy job to finish.') 
+        state = response['state'] 
+        if state == 'QUEUED':
+            deploy_url = response['links']['self'] 
+            current_time = datetime.datetime.now() 
+            end_time = current_time + datetime.timedelta(seconds=timeout) 
+            deployed = False 
+            while datetime.datetime.now() < end_time:
+                self.log.debug('Checking the status of the deploy job.') 
+                response = self._send_request(deploy_url, headers=headers)
+                state = response['state'] 
+                self.log.debug(f'The state of the deploy job is {state}.') 
+                if state == 'DEPLOYED':
+                    deployed = True 
+                    break 
+                time.sleep(5) 
+            if not deployed: 
+                raise Exception('Error while deploying the configuration.')
+        else: 
+            raise Exception('Error occured when requesting the configuration deployment.')

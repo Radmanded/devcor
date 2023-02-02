@@ -1,0 +1,7 @@
+if __name__ == "__main__":
+    args = parse_arguments() 
+
+    if args.debug: 
+        log = init_logger(logging.DEBUG) 
+    else: 
+        log = init_logger()

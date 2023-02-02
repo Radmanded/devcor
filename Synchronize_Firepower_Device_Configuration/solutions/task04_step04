@@ -1,0 +1,14 @@
+    def login(self): 
+        self.log.debug('Login to FDM.') 
+
+        url = self.base_url + '/fdm/token'
+        body = { 
+            'grant_type': 'password',
+            'username': f'{self.username}',
+            'password': f'{self.password}',
+        } 
+
+        self.log.debug('Sending the login request to FDM.') 
+        response = self._send_request(url, method='post', body=body)
+        self.token = response.get('access_token')
+        self.log.debug(f'Access token: {self.token}')

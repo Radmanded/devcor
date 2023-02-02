@@ -1,0 +1,2 @@
+        self.log.info('Adding the configuration to FDM.') 
+        self.fdm.put_access_rule(self.access_rule)
