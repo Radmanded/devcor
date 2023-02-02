@@ -22,7 +22,16 @@ https://learningnetwork.cisco.com/s/learning-plan-detail-standard?ltui__urlRecor
 
 ## Webinars and Training Videos
 
+Nicko Russo has a great comprehensive Study Plan you can view here
+https://www.youtube.com/watch?v=umaFfs0zsdo&ab_channel=NicholasRusso
+
 https://learningnetwork.cisco.com/s/devnet-training-videos?ccid=examtopicspage&dtid=website&oid=exam-topics-lp
+
+## Websites & Blogs
+
+http://njrusmc.net/
+http://njrusmc.net/course/course.html
+https://devnetdan.com/2021/04/04/devnet-pro-journey-my-first-devcor-exam-experience/
 
 ## Books
 
