@@ -50,6 +50,8 @@ macOS
 Windows
 - https://developer.cisco.com/learning/modules/dev-setup/dev-win/introduction/
 
+</details>
+ 
 <details>
 <summary><h2> :information_source: Meraki</h2></summary>
 
