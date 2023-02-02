@@ -1,3 +1,50 @@
+# Cisco DEVCOR 350-901 Exam
+
+Cisco DEVCOR (350-901) certification is a comprehensive exam that tests your knowledge and skills in developing and maintaining network applications and infrastructure. This document provides a comprehensive guide to help you prepare for the DEVCOR exam. 
+
+## Exam Topics
+- Check out the exam topics in detail [here](https://learningnetwork.cisco.com/s/devcor-exam-topics).
+- You can also download the PDF guide [here](350-901-DEVCOR.pdf).
+
+## Community and Support
+Join the Cisco DEVCOR community on [Cisco Learning Network](https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community?ccid=examtopicspage&dtid=website&oid=exam-topics-lp) for tips and advice from other DEVCOR professionals.
+
+## Study Resources
+- [Cisco Learning Network](https://learningnetwork.cisco.com/s/learning-plan-detail-standard?ltui__urlRecordId=a1c3i0000005hsBAAQ&ltui__urlRedirect=learning-plan-detail-standard&ccid=examtopicspage&dtid=website&oid=exam-topics-lp) provides a great study plan to break down the topics to learn.
+- Watch [Nicko Russo's comprehensive Study Plan on YouTube](https://www.youtube.com/watch?v=umaFfs0zsdo&ab_channel=NicholasRusso) for additional guidance.
+- [Cisco DEVCOR training videos](https://learningnetwork.cisco.com/s/devnet-training-videos?ccid=examtopicspage&dtid=website&oid=exam-topics-lp) are also available on Cisco Learning Network.
+
+## Recommended Websites & Blogs
+- [NJRusmc](http://njrusmc.net/)
+- [NJRusmc course](http://njrusmc.net/course/course.html)
+- [Devnet Dan's journey to DEVCOR certification](https://devnetdan.com/2021/04/04/devnet-pro-journey-my-first-devcor-exam-experience/)
+
+## Recommended Books
+- Cisco Certified DevNet Professional DEVCOR 350-901 Official Cert Guide
+- Network Programmability and Automation Fundamentals
+
+## Developer Environment Setup
+
+### Linux
+- [Ubuntu developer setup](https://developer.cisco.com/learning/modules/dev-setup/dev-ubuntu/introduction/)
+
+### macOS
+- [macOS developer setup](https://developer.cisco.com/learning/modules/dev-setup/dev-mac/introduction/)
+
+### Windows
+- [Windows developer setup](https://developer.cisco.com/learning/modules/dev-setup/dev-win/introduction/)
+
+## :information_source: Meraki
+
+### Meraki Developer Hub
+- [Meraki Developer Hub](https://developer.cisco.com/meraki/meraki-platform/)
+- [Meraki](https://developer.cisco.com/meraki/)
+
+### Code Exchange
+
+### Meraki Dashboard API
+- [Meraki Dashboard API](https://developer.cisco.
+
 # devcor
 
 # Cisco DevCor Resources
