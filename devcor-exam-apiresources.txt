@@ -1,0 +1,16 @@
+https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+https://www.youtube.com/watch?v=wJa5CTIFj7U
+
+https://www.youtube.com/watch?v=JYNYv8jJQTE
+
+Pagination
+https://www.youtube.com/watch?v=WUICbOOtAic
+
+Yang Data Model - https://www.youtube.com/watch?v=1r_XXA7QX8M
+
+
+Meraki course calculator:
+https://1drv.ms/x/s!Aohxj1C5XXg7xEQqmPvV_T1i8YcW?e=Eg1Ke3
+
+What I need:
+I need licenses to MV, and MX so I can use SD-WAN
