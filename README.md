@@ -177,51 +177,48 @@ https://dcloud-cms.cisco.com/help/view-documentation-for-dcloud-content
 
 
 <details>
-<summary><h2> :information_source: Software Resources</h2></summary>
+  <summary>
+    <h2>:information_source: Software Resources</h2>
+  </summary>
 
-### GitHub Repo
+## GitHub Repo
+- https://github.com/Stienvdh/new-employee-onboarding
 
-https://github.com/Stienvdh/new-employee-onboarding
+## Git Tutorial
+- https://www.youtube.com/watch?v=8JJ101D3knE
 
-Git Tutorial: https://www.youtube.com/watch?v=8JJ101D3knE
-Creating an SSH key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
-LastPass: https://www.lastpass.com/
-Docker Tutorial: https://www.youtube.com/watch?v=pTFZFxd4hOI
-JSON and Python Tutorial: https://www.youtube.com/watch?v=oQfNYqz8pLs
+## Creating an SSH Key
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
-### Jinja2
+## LastPass
+- https://www.lastpass.com/
 
-https://ttl255.com/jinja2-tutorial-part-1-introduction-and-variable-substitution/
+## Docker Tutorial
+- https://www.youtube.com/watch?v=pTFZFxd4hOI
 
-### NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)
+## JSON and Python Tutorial
+- https://www.youtube.com/watch?v=oQfNYqz8pLs
 
-https://developer.cisco.com/codeexchange/github/repo/napalm-automation/napalm
+## Jinja2
+- https://ttl255.com/jinja2-tutorial-part-1-introduction-and-variable-substitution/
 
-https://napalm.readthedocs.io/en/latest/
+## NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)
+- https://developer.cisco.com/codeexchange/github/repo/napalm-automation/napalm
+- https://napalm.readthedocs.io/en/latest/
+- https://github.com/napalm-automation/napalm
+- https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2019/pdf/DEVNET-1599.pdf
+- https://codingnetworks.blog/napalm-network-automation-python-working-with-cisco-ios-and-ios-xr/
+- https://ultraconfig.com.au/blog/introduction-to-napalm-network-automation-on-cisco/
 
-https://github.com/napalm-automation/napalm
+## VIM
+- https://github.com/mg979/vim-visual-multi
+- https://learnvimscriptthehardway.stevelosh.com/chapters/06.html#exercises
+- https://vim.fandom.com/wiki/Use_filter_commands_to_process_text
 
-https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2019/pdf/DEVNET-1599.pdf
+## Z Shell
+- https://zsh.sourceforge.io/
 
-https://codingnetworks.blog/napalm-network-automation-python-working-with-cisco-ios-and-ios-xr/
-
-https://ultraconfig.com.au/blog/introduction-to-napalm-network-automation-on-cisco/
-
-### VIM
-
-https://github.com/mg979/vim-visual-multi
-
-https://learnvimscriptthehardway.stevelosh.com/chapters/06.html#exercises
-
-https://vim.fandom.com/wiki/Use_filter_commands_to_process_text
-
-### Z Shell
-
-https://zsh.sourceforge.io/
-
-### Mac Apps
-
-https://manytricks.com/moom/
+## Mac Apps
+- https://manytricks.com/moom/
 
 </details>
-
