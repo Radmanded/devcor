@@ -3,8 +3,10 @@
 Cisco DEVCOR (350-901) certification is a comprehensive exam that tests your knowledge and skills in developing and maintaining network applications and infrastructure. This document provides a comprehensive guide to help you prepare for the DEVCOR exam. 
 
 ## Exam Topics
-- Check out the exam topics in detail [here](https://learningnetwork.cisco.com/s/devcor-exam-topics).
-- You can also download the PDF guide [here](350-901-DEVCOR.pdf).
+The Exam guide breaks down the exam topics, so you can identify what areas to work on:
+
+- [View the exam topics in detail](https://learningnetwork.cisco.com/s/devcor-exam-topics).
+- [Download the PDF guide](350-901-DEVCOR.pdf).
 
 ## Community and Support
 Join the Cisco DEVCOR community on [Cisco Learning Network](https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community?ccid=examtopicspage&dtid=website&oid=exam-topics-lp) for tips and advice from other DEVCOR professionals.
@@ -34,70 +36,6 @@ Join the Cisco DEVCOR community on [Cisco Learning Network](https://learningnetw
 ### Windows
 - [Windows developer setup](https://developer.cisco.com/learning/modules/dev-setup/dev-win/introduction/)
 
-## :information_source: Meraki
-
-### Meraki Developer Hub
-- [Meraki Developer Hub](https://developer.cisco.com/meraki/meraki-platform/)
-- [Meraki](https://developer.cisco.com/meraki/)
-
-### Code Exchange
-
-### Meraki Dashboard API
-- [Meraki Dashboard API](https://developer.cisco.
-
-# devcor
-
-# Cisco DevCor Resources
-
-https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/devcor-350-901.html
-
-## Exam Topic
-
-https://learningnetwork.cisco.com/s/devcor-exam-topics
-or
-Download the PDF 350-901-DEVCOR.pdf
-
-## Community Website
-
-https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community?ccid=examtopicspage&dtid=website&oid=exam-topics-lp
-
-## DEVCOR Study Materials 
-
-https://learningnetwork.cisco.com/s/learning-plan-detail-standard?ltui__urlRecordId=a1c3i0000005hsBAAQ&ltui__urlRedirect=learning-plan-detail-standard&ccid=examtopicspage&dtid=website&oid=exam-topics-lp
-
-> Great resource to break down the topics to learn
-
-## Webinars and Training Videos
-
-Nicko Russo has a great comprehensive Study Plan you can view here
-https://www.youtube.com/watch?v=umaFfs0zsdo&ab_channel=NicholasRusso
-
-https://learningnetwork.cisco.com/s/devnet-training-videos?ccid=examtopicspage&dtid=website&oid=exam-topics-lp
-
-## Websites & Blogs
-
-http://njrusmc.net/
-http://njrusmc.net/course/course.html
-https://devnetdan.com/2021/04/04/devnet-pro-journey-my-first-devcor-exam-experience/
-
-## Books
-
-- Cisco Certified DevNet Professional DEVCOR 350-901 Official Cert Guide
-- Network Programmability and Automation Fundamentals
-
-<details>
-<summary><h2> Setup Developer Environment </h2></summary>
-
-Linux
-- https://developer.cisco.com/learning/modules/dev-setup/dev-ubuntu/introduction/
-
-macOS
-- https://developer.cisco.com/learning/modules/dev-setup/dev-mac/introduction/
-
-Windows
-- https://developer.cisco.com/learning/modules/dev-setup/dev-win/introduction/
-
-</details>
  
 <details>
 <summary><h2> :information_source: Meraki</h2></summary>
