@@ -1,0 +1,2 @@
+# URL for API calls
+url = URL + 'restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet=1/ip/address'

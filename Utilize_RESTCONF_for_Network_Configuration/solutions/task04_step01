@@ -1,0 +1,24 @@
+import sys, requests
+
+#CSR1kv1 Credentials
+URL  = ''
+USER = ''
+PASS = ''
+
+# URL for API calls
+url = URL + ''
+
+# Headers required for RESTCONF
+headers = {'Content-Type': 'application/yang-data+json',
+           'Accept': 'application/yang-data+json'}
+
+# Main method
+def main():
+
+    # GET call to CSR1kv1, SSL checking turned off
+
+    # Print the returned JSON
+     
+     
+if __name__ == '__main__':
+    main()

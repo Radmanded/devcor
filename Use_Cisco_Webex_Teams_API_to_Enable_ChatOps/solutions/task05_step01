@@ -1,0 +1,10 @@
+curl -X POST \
+  https://api.ciscospark.com/v1/webhooks \
+  -H 'Authorization: Bearer Token' \
+  -H 'Content-Type: application/json' \
+  -d '{
+      "name": "Webhook to ChatBot",
+      "resource": "all",
+      "event": "all",
+      "targetUrl": "ngrok_url"
+    }'

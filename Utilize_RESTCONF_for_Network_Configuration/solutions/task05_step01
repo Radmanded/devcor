@@ -1,0 +1,9 @@
+# New IP address
+ip_address = {
+  "Cisco-IOS-XE-native:address": {
+    "primary": {
+      "address": "192.168.0.88",
+      "mask": "255.255.255.0"
+    }
+  }
+}

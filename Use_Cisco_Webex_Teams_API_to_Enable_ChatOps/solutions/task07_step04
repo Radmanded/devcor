@@ -1,0 +1,4 @@
+                # Collect the roomId from the notification,
+                # so you know where to post the response
+                # Set the msg object attribute.
+                msg.room_id = data.get('data').get('roomId')

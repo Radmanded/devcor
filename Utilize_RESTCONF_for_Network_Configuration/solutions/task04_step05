@@ -1,0 +1,2 @@
+# Print the returned JSON
+print(response.text)

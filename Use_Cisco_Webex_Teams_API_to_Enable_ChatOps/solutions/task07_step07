@@ -1,0 +1,16 @@
+# If message starts with '/server', relay it to the web server. 
+# If not, just post a confirmation that a message was received. 
+if msg.message_text.startswith('/server'): 
+	# Default action is to list send the 'status' command. 
+	try: 
+		action = msg.message_text.split()[1] 
+	except IndexError: 
+		action = 'status' 
+	headers = {'Content-Type': 'application/x-www-form-urlencoded'} 
+	data = f'action={action}' 
+	web_server = 'http://dev.web.local/status' 
+	msg.reply = requests.post(web_server, headers=headers, data=data).text 
+	msg.post_message(msg.room_id, msg.reply) 
+else: 
+	msg.reply = f'Bot received message "{msg.message_text}"' 
+	msg.post_message(msg.room_id, msg.reply)

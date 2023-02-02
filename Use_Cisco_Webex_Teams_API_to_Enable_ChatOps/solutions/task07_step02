@@ -1,0 +1,4 @@
+    def get_message(self, message_id):
+        """ Retrieve a specific message, specified by message_id """
+        received_message_url = f'{self.base_url}/messages/{message_id}'
+        self.message_text = requests.get(received_message_url, headers=self.headers).json().get('text')

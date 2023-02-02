@@ -1,0 +1,2 @@
+# Print the response's status code
+print(response_change.status_code)

@@ -1,0 +1,2 @@
+# Get the contents of the received message.
+msg.get_message(message_id)

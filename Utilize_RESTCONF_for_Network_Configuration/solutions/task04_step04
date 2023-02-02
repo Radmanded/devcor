@@ -1,0 +1,4 @@
+response = requests.get(url,
+                        auth=(USER, PASS),
+                        headers=headers,
+                        verify=False)

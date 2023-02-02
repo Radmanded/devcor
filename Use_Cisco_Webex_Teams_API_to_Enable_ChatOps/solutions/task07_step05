@@ -1,0 +1,3 @@
+                # Collect the message id from the notification,
+                # so you can fetch the message content
+                message_id = data.get('data').get('id')
